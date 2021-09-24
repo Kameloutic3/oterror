@@ -1,0 +1,180 @@
+@charset "utf-8";
+
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #d6e1ff;
+   
+}
+
+main {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.area-section {
+    margin: 10px;
+    max-width: 460px;
+    height: 705px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.438);
+}
+
+.area-section img {
+    max-width: inherit;
+    width: 100%; height: 220px;
+    object-fit: cover;
+}
+
+.area1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    margin-top: 60px;
+}
+
+.title p {
+    font-size: 1.7em;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.082);
+}
+
+.area1 .p {
+    margin-top: 20px;
+    max-width: 320px;
+    width: 100%;
+    line-height: 25px;
+}
+
+.p p {
+    color: #7b7d92;
+    text-align: center;
+}
+
+.area-price {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.price {
+    height: 100px;
+    max-width: 350px;
+    border-radius: 10px;
+    background-color: #f8f9fe;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.img-price {
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+.img-price img {
+    width: 50px; height: 50px;
+    cursor: pointer;
+}
+
+.text-price {
+    margin-right: 50px;
+}
+
+.text-price p {
+    color: #000;
+    font-weight: bold;
+}
+
+.text-price span {
+    font-weight: normal;
+    color: #7f859b;
+}
+
+
+.change-prince {
+    margin-left: 50px;
+}
+
+.change-prince a {
+    text-decoration: none;
+    color: #7c70fa;
+}
+
+.change-prince a:hover {
+    text-decoration: underline;
+}
+
+.change {
+    display: flex;
+    justify-content: center;
+}
+
+.sub-change {
+    margin-top: 30px;
+    max-width: 350px;
+    height: 55px;
+    width: 100%;
+    background-color: #766cf1;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.137);
+}
+
+.sub-change:hover {
+    background-color: rgba(119, 108, 241, 0.753);
+}
+
+.end {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.end p {
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 380px) {
+  
+
+    .sub-change {
+        max-width: 300px;
+    }
+
+    .price {
+      margin: 20px;
+      padding: 10px;
+    }
+
+    .change-prince {
+        margin-left: 5px;
+    }
+    .area-section {
+        height: 720px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .area-section {
+        height: 720px;
+    }
+}
